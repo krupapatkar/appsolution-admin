@@ -13,6 +13,8 @@ import {
 import { dashboardAPI } from '../../services/api';
 import { useAuth } from '../../contexts/AuthContext';
 import AdminLayout from '../../components/AdminLayout';
+import { Link } from 'react-router-dom';
+
 
 const AdminDashboard = () => {
   const { isAuthenticated } = useAuth();
@@ -175,7 +177,12 @@ const AdminDashboard = () => {
           <button className="flex items-center p-4 bg-blue-500/20 hover:bg-blue-500/30 rounded-lg transition-colors text-left">
             <ShoppingBag className="h-8 w-8 text-blue-400 mr-3" />
             <div>
-              <h3 className="text-white font-medium">Add New Product</h3>
+              {/* <h3 className="text-white font-medium">Add New Product</h3> */}
+              <h3 className="text-white font-medium">
+                <Link to="/admin/products" className="hover:underline">
+                  Add New Products
+                </Link>
+              </h3>
               <p className="text-gray-400 text-sm">Upload a new app solution</p>
             </div>
           </button>

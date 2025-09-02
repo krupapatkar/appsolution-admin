@@ -88,13 +88,13 @@ const BlogDetailPage = () => {
       <Navbar />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Back Button */}
-        <Link
+        {/* <Link
           to="/blog"
           className="inline-flex items-center text-blue-400 hover:text-blue-300 mb-8 transition-colors"
         >
           <ArrowLeft className="h-5 w-5 mr-2" />
-          Back to Blog
-        </Link>
+          Back to Blogs
+        </Link> */}
 
         {/* Article Header */}
         <article className="bg-white/5 backdrop-blur-lg rounded-2xl border border-white/10 overflow-hidden mb-8">
