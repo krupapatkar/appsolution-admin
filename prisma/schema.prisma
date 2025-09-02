@@ -1,0 +1,139 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      Role     @default(USER)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  blogPosts BlogPost[]
+
+  @@map("users")
+}
+
+model Product {
+  id              String   @id @default(cuid())
+  name            String
+  description     String
+  fullDescription String?
+  price           Decimal  @db.Decimal(10, 2)
+  category        String
+  technologies    Json     @default("[]")
+  features        Json     @default("[]")
+  requirements    Json     @default("[]")
+  support         Json     @default("[]")
+  image           String?
+  screenshots     Json     @default("[]")
+  videoUrl        String?
+  downloadUrl     String?
+  rating          Decimal  @default(0) @db.Decimal(2, 1)
+  sales           Int      @default(0)
+  status          Status   @default(ACTIVE)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  purchases Purchase[]
+
+  @@map("products")
+}
+
+model BlogPost {
+  id        String      @id @default(cuid())
+  title     String
+  excerpt   String
+  content   String
+  authorId  String
+  category  String
+  image     String?
+  tags      Json        @default("[]")
+  status    PostStatus  @default(DRAFT)
+  readTime  String      @default("5 min read")
+  views     Int         @default(0)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  // Relations
+  author User @relation(fields: [authorId], references: [id])
+
+  @@map("blog_posts")
+}
+
+model Contact {
+  id        String        @id @default(cuid())
+  name      String
+  email     String
+  message   String
+  captcha   String?
+  status    ContactStatus @default(UNREAD)
+  ipAddress String?
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  @@map("contacts")
+}
+
+model Purchase {
+  id              String        @id @default(cuid())
+  transactionId   String        @unique
+  productId       String
+  customerName    String
+  customerEmail   String
+  customerCompany String?
+  amount          Decimal       @db.Decimal(10, 2)
+  paymentMethod   String        @default("PayPal")
+  paymentStatus   PaymentStatus @default(PENDING)
+  downloadCount   Int           @default(0)
+  lastDownload    DateTime?
+  ipAddress       String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  // Relations
+  product Product @relation(fields: [productId], references: [id])
+
+  @@map("purchases")
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+enum Status {
+  ACTIVE
+  INACTIVE
+}
+
+enum PostStatus {
+  DRAFT
+  PUBLISHED
+}
+
+enum ContactStatus {
+  UNREAD
+  READ
+  REPLIED
+}
+
+enum PaymentStatus {
+  PENDING
+  COMPLETED
+  FAILED
+  REFUNDED
+}
