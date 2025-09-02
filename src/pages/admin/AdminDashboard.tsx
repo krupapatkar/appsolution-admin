@@ -179,8 +179,8 @@ const AdminDashboard = () => {
             <div>
               {/* <h3 className="text-white font-medium">Add New Product</h3> */}
               <h3 className="text-white font-medium">
-                <Link to="/admin/products" className="hover:underline">
-                  Add New Products
+                <Link to="/admin/products">
+                   <h3 className="text-white font-medium cursor-pointer">Add New Products</h3>
                 </Link>
               </h3>
               <p className="text-gray-400 text-sm">Upload a new app solution</p>
@@ -190,7 +190,10 @@ const AdminDashboard = () => {
           <button className="flex items-center p-4 bg-green-500/20 hover:bg-green-500/30 rounded-lg transition-colors text-left">
             <BarChart3 className="h-8 w-8 text-green-400 mr-3" />
             <div>
-              <h3 className="text-white font-medium">View Analytics</h3>
+              {/* <h3 className="text-white font-medium">View Analytics</h3> */}
+              <Link to="/analytics">
+              <h3 className="text-white font-medium cursor-pointer">View Analytics</h3>
+            </Link >
               <p className="text-gray-400 text-sm">Detailed performance metrics</p>
             </div>
           </button>
@@ -198,7 +201,10 @@ const AdminDashboard = () => {
           <button className="flex items-center p-4 bg-purple-500/20 hover:bg-purple-500/30 rounded-lg transition-colors text-left">
             <MessageSquare className="h-8 w-8 text-purple-400 mr-3" />
             <div>
-              <h3 className="text-white font-medium">Manage Support</h3>
+              {/* <h3 className="text-white font-medium">Manage Support</h3> */}
+              <Link to="/analytics">
+              <h3 className="text-gray-400 text-sm">Manage Support</h3>
+              </Link>
               <p className="text-gray-400 text-sm">Handle customer inquiries</p>
             </div>
           </button>
