@@ -8,12 +8,12 @@
 
 1. **Create Database**
    ```bash
-   createdb appsolutions
+   createdb AppSellPoint
    ```
 
 2. **Run the initialization script**
    ```bash
-   psql -d appsolutions -f database/init.sql
+   psql -d AppSellPoint -f database/init.sql
    ```
 
    Or connect to PostgreSQL and run:
@@ -24,7 +24,7 @@
 ## Default Credentials
 
 ### Admin User
-- **Email**: `admin@appsolutions.com`
+- **Email**: `admin@AppSellPoint.com`
 - **Password**: `admin123`
 - **Role**: `admin`
 
@@ -67,8 +67,8 @@
 Make sure your `.env` file has the correct database connection:
 
 ```env
-DATABASE_URL=postgresql://username:password@localhost:5432/appsolutions
-DB_NAME=appsolutions
+DATABASE_URL=postgresql://username:password@localhost:5432/AppSellPoint
+DB_NAME=AppSellPoint
 DB_USER=your_username
 DB_PASSWORD=your_password
 DB_HOST=localhost

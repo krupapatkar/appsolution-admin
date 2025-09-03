@@ -9,7 +9,7 @@ const TermsPage = () => {
       icon: Scale,
       title: 'Acceptance of Terms',
       content: [
-        'By accessing and using AppSolutions, you accept and agree to be bound by these Terms and Conditions',
+        'By accessing and using AppSellPoint, you accept and agree to be bound by these Terms and Conditions',
         'If you do not agree to these terms, you may not use our services',
         'We reserve the right to modify these terms at any time with notice to users',
         'Continued use of our services after changes constitutes acceptance of new terms'
@@ -32,7 +32,7 @@ const TermsPage = () => {
         'Upon purchase, you receive a non-exclusive license to use the mobile app source code',
         'You may modify and customize the code for your own commercial use',
         'Redistribution or resale of the original source code is strictly prohibited',
-        'All intellectual property rights remain with AppSolutions'
+        'All intellectual property rights remain with AppSellPoint'
       ]
     },
     {
@@ -102,12 +102,12 @@ const TermsPage = () => {
           <h2 className="text-2xl font-bold text-white mb-6">Limitation of Liability</h2>
           <div className="space-y-4 text-gray-300">
             <p>
-              AppSolutions provides digital products "as is" without any warranties, express or implied. 
+              AppSellPoint provides digital products "as is" without any warranties, express or implied. 
               We make no guarantees about the performance, reliability, or suitability of our products 
               for any particular purpose.
             </p>
             <p>
-              In no event shall AppSolutions be liable for any indirect, incidental, special, 
+              In no event shall AppSellPoint be liable for any indirect, incidental, special, 
               consequential, or punitive damages, including but not limited to loss of profits, 
               data, or business interruption.
             </p>
@@ -184,7 +184,7 @@ const TermsPage = () => {
           </p>
           <div className="space-y-2 text-gray-300">
             <p><strong>Email:</strong> contact@initiotechmedia.com</p>
-            <p><strong>Phone:</strong> (+91) 918758432204</p>
+            <p><strong>Phone:</strong> (+91) 9316147661</p>
             <p><strong>Address:</strong>  908, B Square 2, Ambli Rd, near Hotel Double tree Hilton, Vikram Nagar, Ahmedabad, Gujarat 380054</p>
           </div>
         </div>

@@ -63,7 +63,7 @@ const AdminLogin = () => {
                   onChange={handleInputChange}
                   required
                   className="w-full pl-10 pr-4 py-3 bg-white/5 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 transition-colors"
-                  placeholder="admin@appsolutions.com"
+                  placeholder="admin@AppSellPoint.com"
                 />
               </div>
             </div>
@@ -116,7 +116,7 @@ const AdminLogin = () => {
           {/* <div className="mt-6 p-4 bg-blue-500/10 border border-blue-500/30 rounded-lg">
             <p className="text-blue-400 text-sm text-center">
               <strong>Demo Credentials:</strong><br />
-              Email: admin@appsolutions.com<br />
+              Email: admin@AppSellPoint.com<br />
               Password: admin123
             </p>
           </div> */}

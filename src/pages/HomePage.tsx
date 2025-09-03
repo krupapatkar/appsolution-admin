@@ -7,6 +7,7 @@ import ProductCard from '../components/ProductCard';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+
 const HomePage = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
 
@@ -81,13 +82,12 @@ const HomePage = () => {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link
-                  to="/products"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
+                  to="/products"className="group relative inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-xl font-semibold transition-colors duration-300 shadow-lg hover:shadow-blue-500/25"
                 >
                   <Eye className="h-5 w-5 mr-2" />
                   Explore Solutions
                 </Link>
-                <Link
+                  <Link
                   to="/about"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl font-semibold transition-all duration-300 backdrop-blur-sm"
                 >

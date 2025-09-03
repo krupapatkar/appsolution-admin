@@ -298,7 +298,7 @@ const ContactModal = ({ contact, onClose, onMarkAsReplied }) => {
               Close
             </button>
             <a
-              href={`mailto:${contact.email}?subject=Re: Your inquiry&body=Hi ${contact.name},%0D%0A%0D%0AThank you for your message.%0D%0A%0D%0ABest regards,%0D%0AAppSolutions Team`}
+              href={`mailto:${contact.email}?subject=Re: Your inquiry&body=Hi ${contact.name},%0D%0A%0D%0AThank you for your message.%0D%0A%0D%0ABest regards,%0D%0AAppSellPoint Team`}
               className="flex-1 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 text-center"
             >
               Reply via Email

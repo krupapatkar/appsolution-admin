@@ -55,7 +55,7 @@ const AboutPage = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About AppSolutions
+            About AppSellPoint
           </h1>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
             We're a passionate team of developers and designers dedicated to creating 
@@ -115,7 +115,7 @@ const AboutPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">Meet Our Team</h2>
             <p className="text-gray-300 text-lg">
-              The talented individuals behind AppSolutions
+              The talented individuals behind AppSellPoint
             </p>
           </div>
           
@@ -166,7 +166,7 @@ const AboutPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-white mb-6">Our Story</h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Founded in 2020, AppSolutions started with a simple idea: make professional 
+              Founded in 2020, AppSellPoint started with a simple idea: make professional 
               mobile app development accessible to businesses of all sizes. What began as 
               a small team of passionate developers has grown into a trusted platform 
               serving hundreds of clients worldwide.

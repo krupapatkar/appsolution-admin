@@ -46,7 +46,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
               <Smartphone className="h-6 w-6 text-white" />
             </div>
             <div>
-              <span className="text-lg font-bold text-white">AppSolutions</span>
+              <span className="text-lg font-bold text-white">AppSellPoint</span>
               <p className="text-xs text-gray-400">Admin Panel</p>
             </div>
           </Link>

@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="p-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg">
                 <Smartphone className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-white">AppSolutions</span>
+              <span className="text-xl font-bold text-white">AppSellPoint</span>
             </Link>
             <p className="text-gray-400 mb-6 max-w-md">
               Your premier destination for ready-made mobile app solutions. 
@@ -82,7 +82,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 AppSolutions. All rights reserved.
+            © 2024 AppSellPoint. All rights reserved.
           </p>
         </div>
       </div>

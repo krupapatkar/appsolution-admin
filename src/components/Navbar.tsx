@@ -29,7 +29,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center space-x-1">
               <span className="text-xl font-bold bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
-                AppSolutions
+                AppSellPoint
               </span>
               <Sparkles className="h-4 w-4 text-blue-400 opacity-60" />
             </div>

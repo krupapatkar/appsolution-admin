@@ -1,9 +1,9 @@
--- AppSolutions Database Schema and Initial Data
+-- AppSellPoint Database Schema and Initial Data
 -- PostgreSQL Database Setup
 
 -- Create database (run this separately if needed)
--- CREATE DATABASE appsolutions;
--- \c appsolutions;
+-- CREATE DATABASE AppSellPoint;
+-- \c AppSellPoint;
 
 -- Enable UUID extension
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -104,7 +104,7 @@ CREATE INDEX IF NOT EXISTS idx_purchases_transaction ON purchases("transactionId
 INSERT INTO users (id, email, password, name, role, "isActive") VALUES 
 (
     uuid_generate_v4(),
-    'admin@appsolutions.com',
+    'admin@AppSellPoint.com',
     '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAg/9qm', -- admin123
     'Admin User',
     'admin',
@@ -120,7 +120,7 @@ DECLARE
     product3_id UUID;
 BEGIN
     -- Get admin user ID
-    SELECT id INTO admin_id FROM users WHERE email = 'admin@appsolutions.com';
+    SELECT id INTO admin_id FROM users WHERE email = 'admin@AppSellPoint.com';
     
     -- Insert sample products
     INSERT INTO products (
@@ -332,7 +332,7 @@ CREATE TRIGGER update_purchases_updated_at BEFORE UPDATE ON purchases FOR EACH R
 
 -- Display summary
 SELECT 'Database initialization completed successfully!' as status;
-SELECT 'Admin user created: admin@appsolutions.com (password: admin123)' as admin_info;
+SELECT 'Admin user created: admin@AppSellPoint.com (password: admin123)' as admin_info;
 SELECT COUNT(*) as total_products FROM products;
 SELECT COUNT(*) as total_blog_posts FROM blog_posts;
 SELECT COUNT(*) as total_contacts FROM contacts;

@@ -102,7 +102,7 @@ const startServer = async () => {
     console.log('Database connection established successfully.');
     
     // Create default admin user
-    const adminEmail = process.env.ADMIN_EMAIL || 'admin@appsolutions.com';
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@AppSellPoint.com';
     const adminPassword = process.env.ADMIN_PASSWORD || 'admin123';
     
     const adminExists = await prisma.user.findUnique({ 

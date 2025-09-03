@@ -151,7 +151,7 @@ const PrivacyPage = () => {
           </p>
           <div className="space-y-2 text-gray-300">
             <p><strong>Email:</strong> contact@initiotechmedia.com</p>
-            <p><strong>Phone:</strong> (+91) 918758432204</p>
+            <p><strong>Phone:</strong> (+91) 9316147661</p>
             <p><strong>Address:</strong>  908, B Square 2, Ambli Rd, near Hotel Double tree Hilton, Vikram Nagar, Ahmedabad, Gujarat 380054</p>
           </div>
         </div>

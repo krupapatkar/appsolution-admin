@@ -1,8 +1,8 @@
--- Add Admin User to AppSolutions Database
+-- Add Admin User to AppSellPoint Database
 -- PostgreSQL Script to create admin user with proper credentials
 
 -- Connect to the database (uncomment if running separately)
--- \c appsolutions;
+-- \c AppSellPoint;
 
 -- Enable UUID extension if not already enabled
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -20,7 +20,7 @@ INSERT INTO users (
     "updatedAt"
 ) VALUES (
     uuid_generate_v4(),
-    'admin@appsolutions.com',
+    'admin@AppSellPoint.com',
     '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAg/9qm', -- admin123
     'Admin User',
     'ADMIN',
@@ -43,10 +43,10 @@ SELECT
     "isActive",
     "createdAt"
 FROM users 
-WHERE email = 'admin@appsolutions.com';
+WHERE email = 'admin@AppSellPoint.com';
 
 -- Display success message
 SELECT 'Admin user created/updated successfully!' as status;
 SELECT 'Login credentials:' as info;
-SELECT 'Email: admin@appsolutions.com' as email;
+SELECT 'Email: admin@AppSellPoint.com' as email;
 SELECT 'Password: admin123' as password;
