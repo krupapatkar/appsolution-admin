@@ -31,7 +31,7 @@ const ContactPage = () => {
                 <div>
                   <h3 className="text-white font-semibold mb-1">Email</h3>
                   <p className="text-gray-300">contact@initiotechmedia.com</p>
-                  <p className="text-gray-300">sales@appsolutions.com</p>
+                  {/* <p className="text-gray-300">sales@appsolutions.com</p> */}
                 </div>
               </div>
 
@@ -41,8 +41,8 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold mb-1">Phone</h3>
-                  <p className="text-gray-300">(+91) 918758432204</p>
-                  <p className="text-gray-300">+1 (555) 987-6543</p>
+                  <p className="text-gray-300">(+91) 9316147661</p>
+                  {/* <p className="text-gray-300">+1 (555) 987-6543</p> */}
                 </div>
               </div>
 
@@ -52,8 +52,8 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold mb-1">Address</h3>
-                  <p className="text-gray-300">123 Tech Street</p>
-                  <p className="text-gray-300">San Francisco, CA 94105</p>
+                  <p className="text-gray-300"> 908, B Square 2, Ambli Rd, near Hotel Double Tree Hilton</p>
+                  <p className="text-gray-300">Vikram Nagar, Ahmedabad, Gujarat 380054</p>
                 </div>
               </div>
 
@@ -63,9 +63,8 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold mb-1">Business Hours</h3>
-                  <p className="text-gray-300">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p className="text-gray-300">Saturday: 10:00 AM - 4:00 PM</p>
-                  <p className="text-gray-300">Sunday: Closed</p>
+                  <p className="text-gray-300">Monday - Friday: 10:00 AM - 7:00 PM</p>
+                 <p className="text-gray-300">Saturday & Sunday: Closed</p>
                 </div>
               </div>
             </div>
