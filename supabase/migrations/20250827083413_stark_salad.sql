@@ -195,10 +195,10 @@ BEGIN
     ) VALUES 
     (
         uuid_generate_v4(),
-        'The Future of Mobile App Development in 2024',
+        'The Future of Mobile App Development in 2025',
         'Explore the latest trends and technologies shaping mobile app development this year, from AI integration to cross-platform solutions.',
         '<h2>Introduction</h2>
-        <p>Mobile app development continues to evolve at a rapid pace, with new technologies and frameworks emerging regularly. As we move through 2024, several key trends are shaping the future of mobile development.</p>
+        <p>Mobile app development continues to evolve at a rapid pace, with new technologies and frameworks emerging regularly. As we move through 2025, several key trends are shaping the future of mobile development.</p>
         
         <h2>1. Cross-Platform Development Dominance</h2>
         <p>Cross-platform frameworks like React Native and Flutter are becoming increasingly popular among developers and businesses alike. These frameworks allow developers to write code once and deploy it across multiple platforms, significantly reducing development time and costs.</p>
@@ -217,7 +217,7 @@ BEGIN
         admin_id,
         'Technology',
         'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg',
-        '["Mobile Development", "Technology", "Trends", "2024", "React Native", "Flutter", "AI", "5G"]',
+        '["Mobile Development", "Technology", "Trends", "2025", "React Native", "Flutter", "AI", "5G"]',
         'published',
         '8 min read',
         1247

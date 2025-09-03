@@ -107,7 +107,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 AppSellPoint. All rights reserved.
+            © 2025 AppSellPoint. All rights reserved.
           </p>
         </div>
       </div>

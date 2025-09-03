@@ -36,7 +36,7 @@
 3. **Fitness Tracker App** - $199.00
 
 ### Blog Posts (1 item)
-- "The Future of Mobile App Development in 2024"
+- "The Future of Mobile App Development in 2025"
 
 ### Contacts (4 items)
 - Various customer inquiries with different statuses

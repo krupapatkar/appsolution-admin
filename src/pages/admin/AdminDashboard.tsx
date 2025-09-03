@@ -180,7 +180,7 @@ const AdminDashboard = () => {
               {/* <h3 className="text-white font-medium">Add New Product</h3> */}
               <h3 className="text-white font-medium">
                 <Link to="/admin/products">
-                   <h3 className="text-white font-medium cursor-pointer">Add New Products</h3>
+                   <h3 className="text-white font-medium cursor-pointer" >Add New Products</h3>
                 </Link>
               </h3>
               <p className="text-gray-400 text-sm">Upload a new app solution</p>

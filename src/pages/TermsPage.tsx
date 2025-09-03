@@ -69,7 +69,7 @@ const TermsPage = () => {
             <div>
               <h2 className="text-xl font-bold text-white mb-2">Important Notice</h2>
               <p className="text-gray-300">
-                These Terms and Conditions were last updated on January 15, 2024. By using our services, 
+                These Terms and Conditions were last updated on January 15, 2025. By using our services, 
                 you agree to be bound by these terms. Please review them carefully.
               </p>
             </div>

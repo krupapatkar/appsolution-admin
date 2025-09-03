@@ -69,7 +69,7 @@ const PrivacyPage = () => {
             <div>
               <h2 className="text-xl font-bold text-white mb-2">Last Updated</h2>
               <p className="text-gray-300">
-                This Privacy Policy was last updated on January 15, 2024. We may update this policy 
+                This Privacy Policy was last updated on January 15, 2025. We may update this policy 
                 from time to time, and we will notify you of any significant changes.
               </p>
             </div>

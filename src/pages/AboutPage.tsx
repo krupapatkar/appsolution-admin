@@ -6,19 +6,20 @@ import Footer from '../components/Footer';
 const AboutPage = () => {
   const teamMembers = [
     {
-      name: 'John Smith',
+      name: 'Siddharth Makadiya',
       role: 'CEO & Founder',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      // image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      image: '/products/images/ceo-founder.jpg',
       description: 'Visionary leader with 15+ years in mobile technology'
     },
     {
-      name: 'Sarah Johnson',
-      role: 'CTO',
+      name: 'Sumeet Bhut',
+      role: 'CTO & Co-Founder',
       image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg',
       description: 'Technical expert specializing in scalable app architecture'
     },
     {
-      name: 'Mike Davis',
+      name: 'Rohan Faldu',
       role: 'Lead Developer',
       image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg',
       description: 'Full-stack developer with expertise in React Native and Node.js'
